@@ -35,7 +35,7 @@ def return_common_stock_tickers(token):
 
 # write our data to .csv or json file
 
-token = '2EXkXJYYgv0IFzY9kDdTYM2fKcBrl78h'
+token = input('API key')
 tickers = return_common_stock_tickers(token)
 
 # write out as csv 
